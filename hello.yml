@@ -1,3 +1,5 @@
 server:
   port: 8081
-prop1: "test2"
+test:
+  configurationProperties:
+    prop1: "test2"
