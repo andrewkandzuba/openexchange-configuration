@@ -1,5 +1,5 @@
 server:
   port: 8081
-test:
-  configurationProperties:
-    prop1: "test2"
+configuration:
+  properties:
+    language: "EN"
