@@ -2,4 +2,4 @@ server:
   port: 8081
 configuration:
   properties:
-    language: "EE"
+    language: "NL"
