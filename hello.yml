@@ -2,7 +2,7 @@ server:
   port: 8081
 configuration:
   properties:
-    language: "NL"
+    language: "DE"
 logging:
   level:
     org.springframework.web: "INFO"
@@ -10,5 +10,5 @@ spring:
   cloud:
     config:
       refresh:
-        rate: 10
+        rate: 30
         timeUnit: SECONDS
