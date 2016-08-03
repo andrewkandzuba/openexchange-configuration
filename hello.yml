@@ -10,5 +10,5 @@ spring:
   cloud:
     config:
       refresh:
-        rate: 30
-        timeUnit: SECONDS
+        rate: 1
+        timeUnit: MINUTES
