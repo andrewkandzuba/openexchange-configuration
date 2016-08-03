@@ -1,0 +1,11 @@
+server:
+  port: ${PORT:8082}
+logging:
+  level:
+    org.springframework.web: "INFO"
+spring:
+  cloud:
+    config:
+      refresh:
+        rate: 30
+        timeUnit: SECONDS

@@ -1,0 +1,14 @@
+server:
+  port: ${PORT:8081}
+configuration:
+  properties:
+    language: "NL"
+logging:
+  level:
+    org.springframework.web: "INFO"
+spring:
+  cloud:
+    config:
+      refresh:
+        rate: 30
+        timeUnit: SECONDS
