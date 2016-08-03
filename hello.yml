@@ -5,4 +5,4 @@ configuration:
     language: "DE"
 logging:
   level:
-    org.springframework.web: "DEBUG"
+    org.springframework.web: "INFO"
