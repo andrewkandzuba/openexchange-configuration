@@ -6,3 +6,9 @@ configuration:
 logging:
   level:
     org.springframework.web: "INFO"
+spring:
+  cloud:
+    config:
+      refresh:
+        rate: 10
+        timeUnit: SECONDS
