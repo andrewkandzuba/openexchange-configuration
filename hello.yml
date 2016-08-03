@@ -3,3 +3,6 @@ server:
 configuration:
   properties:
     language: "DE"
+logging:
+  level:
+    org.springframework.web: "DEBUG"
