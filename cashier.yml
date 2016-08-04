@@ -1,14 +1,29 @@
 server:
   port: ${PORT:8081}
+  
 configuration:
   properties:
     language: "NL"
+    
 logging:
   level:
     org.springframework.web: "INFO"
+    
 spring:
   cloud:
     config:
       refresh:
         rate: 30
         timeUnit: SECONDS
+        
+eureka:
+  instance:
+    hostname: ${vcap.application.uris[0]:localhost}
+    nonSecurePort: ${server.port}
+    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVICE_URL}
+      
