@@ -8,26 +8,4 @@ configuration:
 logging:
   level:
     org.springframework.web: "INFO"
-        
-spring:
-  cloud:
-    config:
-      uri: ${CONFIG_SERVICE_HOST}:${CONFIG_SERVICE_PORT:8888}
-      fail-fast: true
-      username: user
-      password: ${CONFIG_SERVICE_PASSWORD}
-      refresh:
-        rate: 30
-        timeUnit: SECONDS
-        
-eureka:
-  instance:
-    hostname: ${vcap.application.uris[0]:localhost}
-    nonSecurePort: ${server.port}
-    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
-  client:
-    healthcheck:
-      enabled: true
-    serviceUrl:
-      defaultZone: ${vcap.services.eureka.credentials.uri:${EUREKA_SERVICE_URL}}
       
