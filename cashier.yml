@@ -25,5 +25,5 @@ eureka:
     healthcheck:
       enabled: true
     serviceUrl:
-      defaultZone: ${EUREKA_SERVICE_URL}
+      defaultZone: ${vcap.services.eureka.credentials.uri:${EUREKA_SERVICE_URL}}
       
