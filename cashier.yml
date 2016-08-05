@@ -1,6 +1,3 @@
-server:
-  port: ${PORT:8081}
-  
 configuration:
   properties:
     language: "NL"
@@ -8,12 +5,3 @@ configuration:
 logging:
   level:
     org.springframework.web: "DEBUG"
-      
-eureka:
-  instance:
-    leaseRenewalIntervalInSeconds: 1
-    leaseExpirationDurationInSeconds: 2
-    preferIpAddress: false
-    hostname: ${vcap.application.uris[0]:localhost}
-    nonSecurePort: ${server.port}
-    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
