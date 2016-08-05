@@ -1,6 +1,6 @@
 configuration:
   properties:
-    language: "NL"
+    language: "DE"
     
 logging:
   level:
