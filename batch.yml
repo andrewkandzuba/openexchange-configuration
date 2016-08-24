@@ -5,7 +5,7 @@ logging:
 currencylayer:
   api:
     accesskey: aaf13c95d3b6669707e8d2af72ac82b5
-    endpoint: apilayer.net
+    endpoint: http://apilayer.net
     
 spring:
   jpa:
