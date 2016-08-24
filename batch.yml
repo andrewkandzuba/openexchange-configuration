@@ -7,3 +7,11 @@ currencylayer:
     accesskey: aaf13c95d3b6669707e8d2af72ac82b5
     endpoint: apilayer.net
     
+spring:
+  jpa:
+    show_sql: false
+    hibernate:
+      ddl-auto: update
+  datasource:
+    platform: mysql
+    
