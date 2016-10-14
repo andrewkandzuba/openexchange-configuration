@@ -2,13 +2,13 @@ logging:
   level:
     org.springframework.web: "INFO"
 spring:
-	cloud:
-		config:
-			refresh:
-				enabled: false
+  cloud:
+    config:
+      refresh:
+        enabled: false
 spring:
-	jobs:
-		jobs:
-			restart:
-				interval: 10
-				timeunit: "SECONDS"
+  jobs:
+    jobs:
+      restart:
+        interval: 10
+          timeunit: "SECONDS"
