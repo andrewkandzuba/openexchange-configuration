@@ -6,7 +6,6 @@ spring:
     config:
       refresh:
         enabled: false
-spring:
   jobs:
     jobs:
       restart:
