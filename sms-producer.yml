@@ -11,4 +11,4 @@ spring:
     jobs:
       restart:
         interval: 10
-          timeunit: "SECONDS"
+        timeunit: "SECONDS"
