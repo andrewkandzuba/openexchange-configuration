@@ -5,7 +5,7 @@ spring:
   cloud:
     config:
       refresh:
-        enabled: false
+        enabled: true
   consumers:
     concurrency: 2
   jobs:
