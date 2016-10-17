@@ -6,6 +6,8 @@ spring:
     config:
       refresh:
         enabled: false
+  consumers:
+    concurrency: 2
   jobs:
     jobs:
       restart:
