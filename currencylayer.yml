@@ -10,3 +10,8 @@ currencylayer:
 spring:
   datasource:
     platform: mysql
+  jobs:
+    jobs:
+      restart:
+        interval: 10
+        timeunit: MINUTES
