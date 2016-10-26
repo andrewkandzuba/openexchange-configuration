@@ -1,10 +1,6 @@
 logging:
   level:
     org.springframework.web: "INFO"
-logging:
-  level:
-    org.springframework.web: "INFO"
-    
 spring:
   consumers:
     concurrency: 1
