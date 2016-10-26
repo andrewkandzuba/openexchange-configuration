@@ -9,3 +9,5 @@ spring:
       ddl-auto: update
   datasource:
     platform: mysql
+  consumers:
+    concurrency: 1
