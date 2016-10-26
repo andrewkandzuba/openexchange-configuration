@@ -8,9 +8,5 @@ currencylayer:
     endpoint: http://apilayer.net
 
 spring:
-  jpa:
-    show_sql: false
-    hibernate:
-      ddl-auto: update
   datasource:
     platform: mysql
