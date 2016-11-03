@@ -8,9 +8,10 @@ currencylayer:
     endpoint: http://apilayer.net
 
 spring:
-  jpa:
-    show_sql: false
-    hibernate:
-      ddl-auto: update
   datasource:
     platform: mysql
+  jobs:
+    jobs:
+      restart:
+        interval: 10
+        timeunit: MINUTES

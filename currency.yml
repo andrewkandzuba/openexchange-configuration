@@ -1,13 +1,6 @@
 logging:
   level:
     org.springframework.web: "INFO"
-    
 spring:
-  jpa:
-    show_sql: false
-    hibernate:
-      ddl-auto: update
-  datasource:
-    platform: mysql
   consumers:
     concurrency: 1

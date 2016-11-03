@@ -1,0 +1,15 @@
+logging:
+  level:
+    org.springframework.web: "ALL"
+spring:
+  cloud:
+    config:
+      refresh:
+        enabled: true
+  consumers:
+    concurrency: 2
+  jobs:
+    jobs:
+      restart:
+        interval: 10
+        timeunit: "SECONDS"
