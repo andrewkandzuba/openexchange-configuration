@@ -1,3 +1,0 @@
-spring:
-  rabbitmq:
-    host: ${docker.host.address:localhost}
