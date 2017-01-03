@@ -1,6 +1,6 @@
-zuul:
-  routes:
-    kafke-producer:
-      path: /kafka-producer/**
-      serviceId: kafka-producer
-      stripPrefix: false
+#zuul:
+#  routes:
+#    kafke-producer:
+#      path: /kafka-producer/**
+#      serviceId: kafka-producer
+#      stripPrefix: false
