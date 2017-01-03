@@ -1,7 +1,7 @@
-#zuul:
-#  routes:
-#    kafka-producer:
-#      path: /kafka-producer/**
-#      serviceId: kafka-producer
-#      stripPrefix: false
-#      retryable: true
+zuul:
+  routes:
+    kafka-producer:
+      path: /kafka-producer/**
+      serviceId: kafka-producer
+      stripPrefix: false
+      retryable: true
