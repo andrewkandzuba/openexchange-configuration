@@ -4,3 +4,7 @@ zuul:
       path: /kafka-producer/**
       serviceId: kafka-producer
       stripPrefix: false
+io:
+  openexchange:
+    git:
+      enabled: true
