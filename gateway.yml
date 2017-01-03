@@ -1,11 +1,7 @@
 zuul:
   routes:
-    kafke-producer:
+    kafka-producer:
       path: /kafka-producer/**
       serviceId: kafka-producer
       stripPrefix: false
       retryable: true
-io:
-  openexchange:
-    git:
-      enabled: true
