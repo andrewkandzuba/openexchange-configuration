@@ -1,7 +1,6 @@
-#zuul:
-#  routes:
-#    kafka-producer:
-#      path: /kafka-producer/**
-#      serviceId: kafka-producer
-#      stripPrefix: false
-#      retryable: true
+kafka-producer:
+  ribbon:
+    ReadTimeout: 60000
+    MaxConnectionsPerHost: 200
+    MaxConnections: 400
+    PoolMaxThreads: 400
