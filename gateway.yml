@@ -1,6 +1,5 @@
 ribbon:
-  ReadTimeout: 60000
   MaxAutoRetries: 2
   MaxAutoRetriesNextServer: 3
   ConnectTimeout: 30000
-  ReadTimeout: 50000
+  ReadTimeout: 60000
